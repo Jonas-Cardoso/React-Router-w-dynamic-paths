@@ -1,8 +1,7 @@
 # React-Router-w-Dynamic-Paths
 
-run $`npm i`
-$`npm run dev`
-
+run `npm i` `npm run dev`
+ 
 Next.js 13 introduced the App folder and removed support for next/router, a workaroud to implement page transitions is to use a custom <Link> Component that implements navigation progamatically, intercepting the route and calling the route transition via the Context API. 
 
 This is a skeleton to use as Base for Larger Projects.
